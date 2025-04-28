@@ -34,3 +34,30 @@
  * a winning game, and we'll make it more dynamic
  * later.
  */
+ 
+/**
+ * Challenge 3: Create the language chips. Use the
+ * `languages.js` file to pull in the array of
+ * languages to use, which contains the language
+ * name, background color, and text color.
+ * 
+ * Hint for layout: use a flex container that can wrap
+ * to layout the languages.
+ */
+ 
+/**
+ * Challenge 4: 
+ * 1. Save a "currentWord" in state. Initialize as "react".
+ * 2. Map over the letters of the word (you'll need to turn 
+ *    the string into an array of letters first) and display
+ *    each one as a <span>. Capitalize the letters when
+ *    displaying them.
+ * 3. Style to look like the design. You can get the underline 
+ *    effect on the box using `border-bottom`.
+ */
+ 
+/**
+ * Challenge 5: 
+ * Display the keyboard ⌨️. Use <button>s for each letter
+ * since it'll need to be clickable and tab-accessible.
+ */

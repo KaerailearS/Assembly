@@ -30,18 +30,65 @@ header > p {
 }
 .status-section {
   background-color: #10A95B;
-  text-align: center;
-  padding: 6px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   border-radius: 4px;
+  color: #F9F4DA;
+  margin-block: 30px;
 }
 .win-text1 {
   font-size: 1.25rem;
-  line-height: 100%;
-  letter-spacing: 0%;
+  margin: 5px;
 }
 .win-text2 {
-  font-size: 1rem;
-  font-weight: 500;
-  line-height: 100%;
-  letter-spacing: 0%;
+  margin: 5px;
+}
+.chips-section {
+  display: flex;
+  max-width: 350px;
+  flex-wrap: wrap;
+  gap: 5px;
+  justify-content: center;
+  margin-bottom: 36px;
+}
+.chips {
+  border-radius: 3px;
+  padding: 4.5px;
+}
+.word-section {
+  display: flex;
+  justify-content: center;
+  gap: 2px;
+  margin-bottom: 36px;
+}
+.empty-letter {
+
+}
+.letter {
+  width: 40px;
+  height: 40px;
+  font-size: 1.15rem;
+  font-weight: 700;
+  background-color: #323232;
+  border-bottom: 1px solid #F9F4DA;
+  padding: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.keyboard-section {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 350px;
+  gap: 6px;
+  justify-content: center;
+}
+.keyboard-button {
+  padding: 6px;
+  color: #1E1E1E;
+  width: 40px;
+  height: 40px;
+  border-radius: 4px;
+  border: 1px solid #D7D7D7;
 }
