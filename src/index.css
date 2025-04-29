@@ -60,10 +60,7 @@ header > p {
   display: flex;
   justify-content: center;
   gap: 2px;
-  margin-bottom: 36px;
-}
-.empty-letter {
-
+  margin-bottom: 20px;
 }
 .letter {
   width: 40px;
@@ -80,15 +77,35 @@ header > p {
 .keyboard-section {
   display: flex;
   flex-wrap: wrap;
-  max-width: 350px;
-  gap: 6px;
+  max-width: 450px;
+  gap: 8px;
   justify-content: center;
+  margin-bottom: 36px;
 }
-.keyboard-button {
+.keyboard-section > button {
   padding: 6px;
   color: #1E1E1E;
-  width: 40px;
-  height: 40px;
+  background-color: #FCBA29;
+  width: 35px;
+  height: 35px;
   border-radius: 4px;
   border: 1px solid #D7D7D7;
+  cursor: pointer;
+}
+.new-game {
+    background-color: #11B5E5;
+    border: 1px solid #D7D7D7;
+    border-radius: 4px;
+    width: 225px;
+    height: 40px;
+    padding: 6px 12px;
+    display: block;
+    margin-inline: auto;
+    cursor: pointer;
+}
+.keyboard-section > button.button-correct {
+  background-color: #10A95B;
+}
+.keyboard-section > button.button-incorrect {
+  background-color: #EC5D49;
 }

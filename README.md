@@ -61,3 +61,36 @@
  * Display the keyboard ⌨️. Use <button>s for each letter
  * since it'll need to be clickable and tab-accessible.
  */
+ 
+/**
+ * Think: what would be the best way to store the user's
+ * guessed letters?
+ * Add each guessed letter to a state array, and compare existing array items to the letters in the answer array
+ */
+ 
+/**
+ * Challenge 6: Create a new array in state to hold user's
+ * guessed letters. When the user chooses a letter, add
+ * that letter to this state array.
+ * 
+ * Don't worry about whether it was a right or wrong 
+ * guess yet.
+ */
+ 
+/**
+ * Goal: Allow the user to start guessing the letters
+ * 
+ * Challenge 7: Update the keyboard when a letter is right
+ * or wrong.
+ * 
+ * Bonus: use the `clsx` package to easily add conditional 
+ * classNames to the keys of the keyboard. Check the docs 
+ * to learn how to use it 📖
+ */
+ 
+/**
+ * Goal: Allow the user to start guessing the letters
+ * 
+ * Challenge 8: Only display the correctly-guessed letters
+ * in the word
+ */
